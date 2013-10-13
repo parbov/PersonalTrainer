@@ -289,3 +289,17 @@ body, html {
         background-size:100%;
     }
 }
+#exercise-table{
+    
+    font-size:x-large;
+    text-align:center;
+    
+}
+#exercise-table td{
+    margin-left:40px;
+    margin-right:40px;
+}
+#exercise-table th{
+    margin-left:40px;
+    margin-right:40px;
+}
