@@ -1,11 +1,13 @@
-<!--Location-->
+<!--Camera-->
 <div id="tabstrip-camera" 
      data-role="view"  
      data-title="Camera">
 
-    <button onclick="capturePhoto();">Capture Photo</button> <br>
     
-    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <button id="camera-btn" onclick="capturePhoto();">Capture Photo</button> <br>
+    <button id="camera-btn" onclick="captureImage();">Capture Image</button> <br>
+    
+    <img style="display:none;width:260px;height:260px;" id="smallImage" src="" />
     <img style="display:none;" id="largeImage" src="" />
 
 </div>

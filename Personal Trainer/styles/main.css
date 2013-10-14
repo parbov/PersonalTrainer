@@ -289,17 +289,11 @@ body, html {
         background-size:100%;
     }
 }
-#exercise-table{
-    
+#camera-btn{
+    margin-left:20px;
+    width:200px;
+    height:50px;
+}
+#greeting{
     font-size:x-large;
-    text-align:center;
-    
-}
-#exercise-table td{
-    margin-left:40px;
-    margin-right:40px;
-}
-#exercise-table th{
-    margin-left:40px;
-    margin-right:40px;
 }

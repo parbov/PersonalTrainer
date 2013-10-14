@@ -16,6 +16,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/trainings.js"></script>
         <script src="scripts/camera.js"></script>
+        <script src="scripts/capture.js"></script>
         
 
     </head>
@@ -27,11 +28,11 @@
 
             <div class="view-content">
                 <h1>Welcome!</h1>
-                <a id="skin-change" data-role="button" data-click="app.changeSkin">Flat</a>
-                <p>
-                    Icenium&trade; enables you to build cross-platform device applications regardless of your
-                    development platform by combining the convenience of a local development toolset with the
-                    power and flexibility of the cloud.
+                
+                <p id="greeting">
+                    Personal Trainer helps you achieve your goals in building a better body<br><br>
+                    Pick a Training in the trainings tab, find places to have your cardio training on the map or take a picture of your progres
+                    
                 </p>
                 <div class="img"></div>
             </div>
@@ -52,7 +53,7 @@
             <div data-role="footer">
                 <div data-role="tabstrip">
                     <a href="#tabstrip-home" data-icon="home">Home</a>
-                    <a href="views/trainings-view.html#tabstrip-trainings">Training</a>
+                    <a href="views/trainings-view.html#tabstrip-trainings" data-icon="search">Training</a>
                     <a href="views/location-view.html#tabstrip-location" data-icon="globe">Location</a>
                     <a href="views/camera-view.html#tabstrip-camera" data-icon="camera">Camera</a>
                  </div>   
